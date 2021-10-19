@@ -19,6 +19,8 @@ public class Producto {
     //definimos metodos
 
     public Producto() {
+        //para que el contador se incremente , primero
+        //llamamos a la clase y luego al atributo
         this.idProducto = ++Producto.contadorProducto;
     }
 
